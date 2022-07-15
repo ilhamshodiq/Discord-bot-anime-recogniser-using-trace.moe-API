@@ -72,10 +72,10 @@ async def cari(ctx):
 
 
 # baca token method
-def baca_token():
-    with open('token.txt', 'r') as filetoken:
-        lines = filetoken.readlines()
-        return lines[0].strip()
+#def baca_token():
+#    with open('token.txt', 'r') as filetoken:
+#        lines = filetoken.readlines()
+#        return lines[0].strip()
 
 
 load_dotenv()
